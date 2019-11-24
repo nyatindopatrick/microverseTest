@@ -7,104 +7,136 @@
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
   </head>
 
   <body>
-    <nav id="navbar">
-      <header>Javascript Technical Documentation</header>
-      <ul>
-        <li><a class="nav-link" href="#JavaScript">Javascript</a></li>
-        <li>
-          <a class="nav-link" href="#Introduction_to_javaScript"
-            >Introduction to javaScript</a
-          >
-        </li>
-        <li><a class="nav-link" href="#data_Structures">Data Structures</a></li>
-        <li><a class="nav-link" href="#Functions">Functions</a></li>
-        <li><a class="nav-link" href="#Classes">Classes</a></li>
-      </ul>
-    </nav>
+    <!-- <div class="col-md-3 ml-0"> -->
+      <div class="d-flex">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom" id="navbar">
+        <header class="sidebar-heading">Javascript Technical Documentation</header>
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="list-group-item list-group-item-action bg-light">
+            <a class="nav-link" href="#JavaScript">Javascript</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Introduction_to_javaScript"
+              >Introduction to javaScript</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#data_Structures">Data Structures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Functions">Functions</a>
+          </li>
+          <li><a class="nav-link" href="#Classes">Classes</a></li>
+        </ul>
+      </nav>
+    <!-- </div> -->
 
     <!--  <h1>Hello World, We are software developers!</h1> -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
 
-    <main id="main-doc">
-      <section class="main-section" id="JavaScript">
-        <header>Javascript</header>
-        <p>
-          JavaScript, often abbreviated as JS, is a high-level, interpreted,
-          object-oriented programming language that conforms to the ECMAScript
-          specification. JavaScript has curly-bracket syntax, dynamic typing,
-          prototype-based object-orientation, and first-class functions.
-        </p>
-        <li>Example</li>
-        <code></code>
-        <p>
-          JavaScript is one of the 3 languages all web developers must learn:
-        </p>
-      </section>
+    <div class="container-fluid">
+      <main id="main-doc">
+        <section class="main-section" id="JavaScript">
+          <header>Javascript</header>
+          <p>
+            JavaScript, often abbreviated as JS, is a high-level, interpreted,
+            object-oriented programming language that conforms to the ECMAScript
+            specification. JavaScript has curly-bracket syntax, dynamic typing,
+            prototype-based object-orientation, and first-class functions.
+          </p>
+          <li>Example</li>
+          <code>
+            function foo(bar){ return bar }
+          </code>
+          <p>
+            JavaScript is one of the 3 languages all web developers must learn:
+          </p>
+        </section>
 
-      <section class="main-section" id="Introduction_to_javaScript">
-        <header>
-          Introduction to javaScript
-        </header>
-        <p>In this tutorial, the learning speed is your choice.</p>
-        <li>Example</li>
-        <code></code>
-        <p>
-          Everything is up to you. If you are struggling, take a break, or
-          reread the material. Always make sure you understand all the
-          "Try-it-Yourself" examples.
-        </p>
-      </section>
+        <section class="main-section" id="Introduction_to_javaScript">
+          <header>
+            Introduction to javaScript
+          </header>
+          <p>In this tutorial, the learning speed is your choice.</p>
+          <li>Example</li>
+          <code>
+            function foo(bar){ return bar }
+          </code>
+          <p>
+            Everything is up to you. If you are struggling, take a break, or
+            reread the material. Always make sure you understand all the
+            "Try-it-Yourself" examples.
+          </p>
+        </section>
 
-      <section class="main-section" id="data_Structures">
-        <header>Data Structures</header>
-        <p>
-          JavaScript Algorithms and Data Structures repository is still under
-          active development and more algorithms and data-structures are yet to
-          come.
-        </p>
-        <li>Example</li>
-        <code></code>
-        <p>
-          And you may also be a part of it by contributing your code and your
-          implementations of web-known algorithms!
-        </p>
-      </section>
+        <section class="main-section" id="data_Structures">
+          <header>Data Structures</header>
+          <p>
+            JavaScript Algorithms and Data Structures repository is still under
+            active development and more algorithms and data-structures are yet
+            to come.
+          </p>
+          <li>Example</li>
+          <code>
+            const foo = 3;<br />
+            let bar4;<br />
+            let arr=[1,2,4]
+          </code>
+          <p>
+            And you may also be a part of it by contributing your code and your
+            implementations of web-known algorithms!
+          </p>
+        </section>
 
-      <section class="main-section" id="Functions">
-        <header>Functions</header>
-        <p>
-          Functions are one of the fundamental building blocks in JavaScript. A
-          function is a JavaScript procedure—a set of statements that performs a
-          task or calculates a value.
-        </p>
-        <li>Example</li>
-        <code></code>
-        <p>
-          To use a function, you must define it somewhere in the scope from
-          which you wish to call it.
-        </p>
-      </section>
+        <section class="main-section" id="Functions">
+          <header>Functions</header>
+          <p>
+            Functions are one of the fundamental building blocks in JavaScript.
+            A function is a JavaScript procedure—a set of statements that
+            performs a task or calculates a value.
+          </p>
+          <li>Example</li>
+          <code>
+            function foo(a,b){<br />
+            return a+b }
+          </code>
+          <p>
+            To use a function, you must define it somewhere in the scope from
+            which you wish to call it.
+          </p>
+        </section>
 
-      <section class="main-section" id="Classes">
-        <header>Classes</header>
-        <p>
-          A JavaScript class is a type of function. Classes are declared with
-          the class keyword.
-        </p>
-        <li>Example</li>
-        <code></code>
-        <p>
-          We will use function expression syntax to initialize a function and
-          class expression syntax to initialize a class. ... With prototypes,
-          any function can become a constructor instance using the new keyword.
-        </p>
-      </section>
-    </main>
-
+        <section class="main-section" id="Classes">
+          <header>Classes</header>
+          <p>
+            A JavaScript class is a type of function. Classes are declared with
+            the class keyword.
+          </p>
+          <li>Example</li>
+          <code>
+            class Car {<br />
+            constructor(brand) {<br />
+            this.carname = brand;
+            <br />}<br />
+            }
+          </code>
+          <p>
+            We will use function expression syntax to initialize a function and
+            class expression syntax to initialize a class. ... With prototypes,
+            any function can become a constructor instance using the new
+            keyword.
+          </p>
+        </section>
+      </main>
+    </div>
+  </div>
     <script src="js/index.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
